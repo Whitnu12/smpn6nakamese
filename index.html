@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SMPN 6 NAKAMASE</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/img/logo.png"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">SMPN 6</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">
+                <i class="fa fa-home"></i> HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">VISI MISI</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                KEGIATAN
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LOGIN</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END Navbar -->
+    
+
+    <!-- Start slider -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="100">
+          <img src="assets/img/sekolah.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/kelas.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/lorong.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- END slider -->
+
+    <!-- START CARD -->
+    <section id="card">
+      <section class="container my-5">
+        <div class="row" id="about">
+          <div class="col-md-12 text-center">
+            <h1>About Us</h1>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
+              repellat ex dolorum excepturi qui molestiae voluptas autem. Illo
+              nulla corporis cumque eius neque dolorem numquam quo, adipisci
+              ullam sapiente quam.
+            </p>
+            <hr />
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-lg p-3 mb-5 bg-body">
+              <div class="card-body">
+                <i class="bi bi-activity"></i>
+                <h5 class="card-title">Tentang Sekolah</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success d-block">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-lg p-3 mb-5 bg-body">
+              <div class="card-body">
+                <i class="bi bi-activity"></i>
+                <h5 class="card-title">Visi Dan Misi</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success d-block">Detail</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow-lg p-3 mb-5 bg-body">
+              <div class="card-body">
+                <i class="bi bi-activity"></i>
+                <h5 class="card-title">Siswa</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-success d-block">Detail</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- END CARD -->
+
+    <!-- Start Kegiatan -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title text-center">
+          <h2>KEGIATAN</h2>
+          <p>Temukan Berita dan Kegiatan SMP NEGERI 6 NAKAMASE.</p>
+        </div>
+        <hr />
+
+        <div class="row portfolio-container">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/kelas.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Peresmian SMPN 6 NAKAMASE</h4>
+                <p>Telah resmi dibuka SMPN 6</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Telah dilike sebanyak : 800.000"
+                    ><i class="bx bx-heart"></i
+                  ></a>
+                  <a href="blog1.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/sekolah.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Juara Nasional</h4>
+                <p>Juara Nasional siswa/i SMPN 6 NAKAMASE Di bidang Robotic</p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Telah Dilike sebanyak : 500.000"
+                    ><i class="bx bx-heart"></i
+                  ></a>
+                  <a href="blog2.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/lorong.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Juara Nasional Jambore</h4>
+                <p>
+                  Juara Nasional siswa/i SMPN 6 NAKAMASE Di bidang Ke pramukaan
+                  yang di selengarakan di Jakarta
+                </p>
+                <div class="portfolio-links">
+                  <a
+                    href="images/"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    title="Telah dilike Sebanyak : 100.000"
+                    ><i class="bx bx-heart"></i
+                  ></a>
+                  <a href="blog3.html" title="More Details"
+                    ><i class="bx bx-link"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END Kegiatan -->
+
+    <!-- Start contact -->
+    <section class="bg-secondary bg-opacity-10">
+        <div class="container py-5" id="contact">
+          <div class="row justify-content-center">
+            <div class="col-md-12">
+              <h1 class="text-center">Contact Us</h1>
+              <hr />
+            </div>
+            <div class="col-md-8">
+              <form>
+                <div class="mb-3">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Your Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      aria-describedby="emailHelp"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      aria-describedby="emailHelp"
+                      required
+                    />
+                    <div id="emailHelp" class="form-text>
+                      We'll never share your email with anyone else.
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Your Phone</label>
+                    <input
+                      type="number"
+                      class="form-control"
+                      id="phone"
+                      aria-describedby="emailHelp"
+                      required
+                    />
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success w-100 submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- START FOOTER -->
+    <footer class="text-black">
+        <div class="footer-top bg-secondary bg-opacity-10 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>SMPN 6</h3>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                        perspiciatis quis quas, sint fugiat facilis dolor distinctio
+                        dolorum excepturi neque.
+                        </p>
+                    </div>
+                  <div class="col-md-3">
+                    <h5>Hubungi Kami</h5>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">NAKAMASE</li>
+                      <li class="list-group-item">Kab Kupang</li>
+                      <li class="list-group-item">Indonesia</li>
+                      <li class="list-group-item"><b>Phone:</b> +62</li>
+                      <li class="list-group-item"><b>Email:</b> smpn6@gmail.com</li>
+                    </ul>
+                    <div class="d-flex mt-2">
+                      <a href="#" class="btn btn-dark btn-rounded"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                      <a href="#" class="btn btn-dark btn-rounded"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                      <a href="#" class="btn btn-dark btn-rounded"
+                        ><i class="fa fa-twitter"></i
+                      ></a>
+                      <a href="#" class="btn btn-dark btn-rounded"
+                        ><i class="fa fa-linkedin"></i
+                      ></a>
+                      <a href="#" class="btn btn-dark btn-rounded"
+                        ><i class="fa fa-whatsapp"></i
+                      ></a>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <h5>Kegiatan kami</h5>
+                    <p>
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+                      libero perferendis similique ipsum possimus deserunt enim.
+                      Repellat quia perferendis assumenda?
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+            <div class="footer-bottom bg-dark py-4 text-center text-white">
+              <p class="m-0">© Copyright 2022. </p>
+              <small>Designed by school</i> <a href="#" class="text-white">Reserved Beta</a> </small>
+            </div>
+    </footer>
+    <!-- END FOOTER -->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
