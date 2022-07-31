@@ -24,8 +24,9 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <!-- start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    
+  <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">SMPN 6</a>
         <button
@@ -42,17 +43,17 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+              <a class="nav-link active" aria-current="page" href="#slider">
                 <i class="fa fa-home"></i> HOME</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">VISI MISI</a>
+              <a class="nav-link" href="#visimisi">VISI MISI</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="kegiatan"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -60,15 +61,18 @@
                 KEGIATAN
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Siswa</a></li>
+                <li><a class="dropdown-item" href="#">Guru & Staff</a></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">LOGIN</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="assets/login.html">Login</a>
             </li>
           </ul>
         </div>
@@ -77,7 +81,8 @@
     <!-- END Navbar -->
     
 
-    <!-- Start slider -->
+  <!-- Start slider -->
+  <section id="slider">
     <div
       id="carouselExampleCaptions"
       class="carousel slide"
@@ -147,10 +152,11 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+  </section>
     <!-- END slider -->
 
-    <!-- START CARD -->
-    <section id="card">
+  <!-- START CARD -->
+  <section id="visimisi">
       <section class="container my-5">
         <div class="row" id="about">
           <div class="col-md-12 text-center">
@@ -207,8 +213,8 @@
     </section>
     <!-- END CARD -->
 
-    <!-- Start Kegiatan -->
-    <section id="portfolio" class="portfolio">
+  <!-- Start Kegiatan -->
+    <section id="kegiatan" class="kegiatan">
       <div class="container" data-aos="fade-up">
         <div class="section-title text-center">
           <h2>KEGIATAN</h2>
@@ -217,70 +223,40 @@
         <hr />
 
         <div class="row portfolio-container">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-app">
+            <div class="kegiatan-wrap">
               <img src="assets/img/kelas.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
+              <div class="kegiatan-info">
                 <h4>Peresmian SMPN 6 NAKAMASE</h4>
                 <p>Telah resmi dibuka SMPN 6</p>
-                <div class="portfolio-links">
-                  <a
-                    href="images/"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Telah dilike sebanyak : 800.000"
-                    ><i class="bx bx-heart"></i
-                  ></a>
-                  <a href="blog1.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
+                <div class="kegiatan-links">
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-web">
+            <div class="kegiatan-wrap">
               <img src="assets/img/sekolah.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
+              <div class="kegiatan-info">
                 <h4>Juara Nasional</h4>
                 <p>Juara Nasional siswa/i SMPN 6 NAKAMASE Di bidang Robotic</p>
-                <div class="portfolio-links">
-                  <a
-                    href="images/"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Telah Dilike sebanyak : 500.000"
-                    ><i class="bx bx-heart"></i
-                  ></a>
-                  <a href="blog2.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
+                <div class="kegiatan-links">
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-card">
+            <div class="kegiatan-wrap">
               <img src="assets/img/lorong.jpg" class="img-fluid" alt="" />
-              <div class="portfolio-info">
+              <div class="kegiatan-info">
                 <h4>Juara Nasional Jambore</h4>
                 <p>
                   Juara Nasional siswa/i SMPN 6 NAKAMASE Di bidang Ke pramukaan
                   yang di selengarakan di Jakarta
                 </p>
-                <div class="portfolio-links">
-                  <a
-                    href="images/"
-                    data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"
-                    title="Telah dilike Sebanyak : 100.000"
-                    ><i class="bx bx-heart"></i
-                  ></a>
-                  <a href="blog3.html" title="More Details"
-                    ><i class="bx bx-link"></i
-                  ></a>
+                <div class="kegiatan-links">
                 </div>
               </div>
             </div>
@@ -291,7 +267,7 @@
     <!-- END Kegiatan -->
 
     <!-- Start contact -->
-    <section class="bg-secondary bg-opacity-10">
+    <section id="contact" class="contact bg-secondary bg-opacity-10">
         <div class="container py-5" id="contact">
           <div class="row justify-content-center">
             <div class="col-md-12">
@@ -346,7 +322,8 @@
     <!-- END CONTACT -->
 
     <!-- START FOOTER -->
-    <footer class="text-black">
+    <section id="footer">
+      <footer class="text-black">
         <div class="footer-top bg-secondary bg-opacity-10 py-5">
             <div class="container">
                 <div class="row">
@@ -400,7 +377,8 @@
               <p class="m-0">© Copyright 2022. </p>
               <small>Designed by school</i> <a href="#" class="text-white">Reserved Beta</a> </small>
             </div>
-    </footer>
+      </footer>
+    </section>
     <!-- END FOOTER -->
     
     <script
